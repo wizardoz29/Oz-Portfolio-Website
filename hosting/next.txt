@@ -1,0 +1,25 @@
+Installing Firebase CLI:  npm install -g firebase-tools  (done)
+
+To Deploy, open terminal and navigate to this directory.
+
+Sign in to Google: firebase login
+
+Initiate project: firebase init
+
+Specify site in firebase.json: {
+  "hosting": {
+    "site": "portfolio-zunurain",
+
+    "public": "public",
+    ...
+  }
+}
+
+// Check Google's page later
+
+When ready to deploy app, put static files in deploy directly (public), then run: firebase deploy --only hosting:portfolio-zunurain
+
+After deploying, view app at, portfolio-zunurain.web.app
+
+
+https://www.figma.com/file/okikf4JBr5iiT5dGz08RWu/Fintech(Oz)  // Link for Figma - FinTech
